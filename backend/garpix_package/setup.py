@@ -8,11 +8,11 @@ with open(path.join(settings.BASE_DIR, '..', 'README.md'), encoding='utf-8') as 
     long_description = convert(f.read())
 
 setup(
-    name='garpix_pack',
-    version='1.0.0',
+    name='garpix_package',
+    version='2.0.0',
     description='',
     long_description=long_description,
-    url='https://github.com/garpixcms/garpix_pack',
+    url='https://github.com/garpixcms/garpix_package',
     author='Garpix LTD',
     author_email='info@garpix.com',
     license='MIT',

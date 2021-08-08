@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class GarpixPackConfig(AppConfig):
-    name = 'garpix_pack'
+    name = 'garpix_package'
     verbose_name = 'GarpixPack'

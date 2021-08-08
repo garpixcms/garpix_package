@@ -10,14 +10,14 @@ Install with pip:
 pip install garpix_qa
 ```
 
-Add the `garpix_pack` to your `INSTALLED_APPS`:
+Add the `garpix_package` to your `INSTALLED_APPS`:
 
 ```python
 # settings.py
 
 INSTALLED_APPS = [
     # ...
-    'garpix_pack',
+    'garpix_package',
 ]
 ```
 
