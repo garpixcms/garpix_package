@@ -9,7 +9,7 @@ with open(path.join(settings.BASE_DIR, '..', 'README.md'), encoding='utf-8') as 
 
 setup(
     name='garpix_package',
-    version='2.0.0',
+    version='2.0.1',
     description='',
     long_description=long_description,
     url='https://github.com/garpixcms/garpix_package',
@@ -32,6 +32,7 @@ setup(
     install_requires=[
         'm2r == 0.2.1',
         'twine == 3.4.1',
+        'mistune ==0.8.4',
     ],
 )
 

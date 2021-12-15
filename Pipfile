@@ -8,7 +8,8 @@ django = "*"
 environs = "*"
 psycopg2-binary = "*"
 twine = "*"
-m2r = "*"
+m2r = "==0.2.1"
+mistune = "==0.8.4"
 
 [dev-packages]
 
